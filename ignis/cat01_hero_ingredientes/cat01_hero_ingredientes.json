@@ -1,0 +1,657 @@
+{
+  "id": "ignis-cat01-hero-ingredientes-v1",
+  "revision": 0,
+  "last_node_id": 30,
+  "last_link_id": 30,
+  "nodes": [
+    {
+      "id": 25,
+      "type": "Note",
+      "pos": [80, 30],
+      "size": [2400, 180],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ARDE AGENCY x IGNIS — CAT 01: HERO + INGREDIENTES\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nFLUJO: Producto (3 latas) + Referencia visual (estilo/mood) → 3 imágenes hero con frutas → 3 videos Kling 3.0 (5s)\n\nINSTRUCCIONES PARA EL OPERADOR:\n1. ZONA A (izquierda): Carga las 3 fotos de producto IGNIS. Ya vienen pre-asignadas.\n2. ZONA B (abajo-izquierda): Carga 1-2 imágenes de REFERENCIA de la carpeta categorias/01_Hero_Ingredientes/\n3. ZONA C (centro): Edita SOLO las secciones marcadas [EDITAR] en cada prompt de Nano Banana.\n4. ZONA D (derecha): Los videos se generan automáticamente. Edita la ACCION si quieres cambiar el movimiento.\n\nREGLA: El prompt del referente define cuántas latas van (1, 2 o 3). El fondo SIEMPRE es gradiente monocromático matching al color del producto."
+      ],
+      "color": "#222",
+      "bgcolor": "#1a1a2e"
+    },
+
+    {
+      "id": 1,
+      "type": "LoadImage",
+      "pos": [80, 280],
+      "size": [280, 314],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [1], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "LoadImage" },
+      "widgets_values": ["AFTERBURN.jpg", "image"],
+      "color": "#8B0000",
+      "bgcolor": "#5a0000"
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [80, 620],
+      "size": [280, 314],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [2], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "LoadImage" },
+      "widgets_values": ["IGNIS_BLACK CORE.jpg", "image"],
+      "color": "#1a1a1a",
+      "bgcolor": "#0d0d0d"
+    },
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": [80, 960],
+      "size": [280, 314],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [3], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "LoadImage" },
+      "widgets_values": ["IGNIS_OVERDRIVE.jpg", "image"],
+      "color": "#808080",
+      "bgcolor": "#4a4a4a"
+    },
+
+    {
+      "id": 4,
+      "type": "ImageBatch",
+      "pos": [400, 380],
+      "size": [220, 78],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        { "name": "image1", "type": "IMAGE", "link": 1 },
+        { "name": "image2", "type": "IMAGE", "link": 2 }
+      ],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [4], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "ImageBatch" },
+      "widgets_values": []
+    },
+    {
+      "id": 5,
+      "type": "ImageBatch",
+      "pos": [400, 500],
+      "size": [220, 78],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        { "name": "image1", "type": "IMAGE", "link": 4 },
+        { "name": "image2", "type": "IMAGE", "link": 3 }
+      ],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [5], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "ImageBatch" },
+      "widgets_values": []
+    },
+
+    {
+      "id": 6,
+      "type": "LoadImage",
+      "pos": [80, 1340],
+      "size": [280, 314],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [6], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "LoadImage" },
+      "widgets_values": ["reference_style_01.jpg", "image"],
+      "color": "#2d5a27",
+      "bgcolor": "#1a3a15"
+    },
+    {
+      "id": 7,
+      "type": "LoadImage",
+      "pos": [80, 1680],
+      "size": [280, 314],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [7], "slot_index": 0 },
+        { "name": "MASK", "type": "MASK", "links": null }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "LoadImage" },
+      "widgets_values": ["reference_style_02.jpg", "image"],
+      "color": "#2d5a27",
+      "bgcolor": "#1a3a15"
+    },
+
+    {
+      "id": 26,
+      "type": "Note",
+      "pos": [80, 1260],
+      "size": [280, 60],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ZONA B: REFERENCIAS DE ESTILO\nCarga imagenes de categorias/01_Hero_Ingredientes/"
+      ],
+      "color": "#2d5a27",
+      "bgcolor": "#1a3a15"
+    },
+
+    {
+      "id": 8,
+      "type": "ImageBatch",
+      "pos": [400, 1420],
+      "size": [220, 78],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        { "name": "image1", "type": "IMAGE", "link": 6 },
+        { "name": "image2", "type": "IMAGE", "link": 7 }
+      ],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [8], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "ImageBatch" },
+      "widgets_values": []
+    },
+
+    {
+      "id": 9,
+      "type": "ImageBatch",
+      "pos": [400, 700],
+      "size": [220, 78],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        { "name": "image1", "type": "IMAGE", "link": 5 },
+        { "name": "image2", "type": "IMAGE", "link": 8 }
+      ],
+      "outputs": [
+        { "name": "IMAGE", "type": "IMAGE", "links": [9, 10, 11], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "ImageBatch" },
+      "widgets_values": []
+    },
+
+    {
+      "id": 27,
+      "type": "Note",
+      "pos": [700, 230],
+      "size": [540, 130],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ZONA C: GENERACION DE 3 IMAGENES HERO\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nEdita [VARIANTE], [INGREDIENTES], [COLOR_FONDO] en cada prompt.\nVariantes: AFTERBURN (roja), BLACK CORE (negra), OVERDRIVE (plateada)\nCada shot recibe las 3 latas + refs como contexto visual."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+
+    {
+      "id": 10,
+      "type": "KIE_NanoBananaPro_Image",
+      "pos": [700, 390],
+      "size": [540, 420],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 9, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "image", "type": "IMAGE", "links": [12, 15, 21], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_NanoBananaPro_Image" },
+      "widgets_values": [
+        "HERO PRODUCT SHOT — IGNIS AFTERBURN (red slim can, silver calligraphic 'Ignis' logo, 250ml, 'Stay In Motion' tagline). PRODUCT LOCK: preserve EXACT can geometry, label typography, logo placement, metallic red finish and silver asterisk icon from the reference images. Do not invent, modify or distort any branding element. --- SCENE: Single IGNIS AFTERBURN can centered on a reflective dark surface, hero perspective (slight low angle, 10 degrees), surrounded by fresh sliced strawberries, whole cherries, red currants and crushed ice. Condensation droplets covering the can surface, one prominent droplet rolling down the side. Small ice fragments scattered around the base with contact shadows. --- BACKGROUND: Rich red-to-deep-crimson gradient, smooth monochromatic, matching the can's red color identity. Subtle warm backlight glow behind the can creating rim separation. --- LIGHTING: Directional hard side light from camera-left at 45 degrees, creating defined specular highlights on the wet can surface. Soft rim light from behind for can separation. Fill light at 20% from right. High contrast, commercial advertising quality. --- CAMERA: 85mm f/1.4, slight low angle hero perspective, shallow depth of field with sharp focus on can label and front droplets, background fruits softly out of focus. --- COLOR GRADE: Rich and saturated, warm red dominant, Hasselblad tonal depth, Portra 400 film reference. --- RENDER: Commercial advertising photography, editorial luxury, photoreal, hyperrealistic, 4K, tactile surface texture, natural liquid physics, believable contact shadows. --- NEGATIVE: plastic skin, incorrect fingers, floating objects without contact shadow, generic orange-teal color grading, unnatural perfect symmetry, dead eyes without catchlight, generic blurry backgrounds without narrative, flat lighting without direction, AI-generated look, artificial feel, CGI appearance, oversaturated neon colors, waxy texture, anatomical errors, text artifacts, watermarks, distorted label, warped can geometry, fake-looking ice, floating droplets",
+        "1:1",
+        "2K",
+        "png",
+        true
+      ],
+      "color": "#8B0000",
+      "bgcolor": "#5a0000"
+    },
+
+    {
+      "id": 11,
+      "type": "KIE_NanoBananaPro_Image",
+      "pos": [700, 850],
+      "size": [540, 420],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 10, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "image", "type": "IMAGE", "links": [13, 16, 22], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_NanoBananaPro_Image" },
+      "widgets_values": [
+        "HERO PRODUCT SHOT — IGNIS BLACK CORE (matte black slim can, red calligraphic 'Ignis' logo, 250ml, 'Focus Is Power' tagline). PRODUCT LOCK: preserve EXACT can geometry, label typography, logo placement, matte black finish and white asterisk icon from the reference images. Do not invent, modify or distort any branding element. --- SCENE: Single IGNIS BLACK CORE can centered on a black reflective obsidian-like surface, hero perspective (slight low angle), surrounded by dark blackberries, whole black cherries, dark plums cut in half showing deep red flesh, and crushed dark ice. Condensation droplets covering the matte black surface, water beading on the matte texture. Small ice fragments scattered around the base with contact shadows. --- BACKGROUND: Deep black-to-charcoal gradient with a subtle dark red accent glow from below, monochromatic, matching the can's dark identity. Dramatic backlight creating a thin red rim light outline around the can edges. --- LIGHTING: Hard directional side light from camera-left at 45 degrees, Rembrandt style with defined shadow. Strong rim light from behind in deep red tone for dramatic separation. Minimal fill. Very high contrast, moody low-key commercial advertising. --- CAMERA: 85mm f/1.4, slight low angle hero perspective, shallow depth of field with sharp focus on red logo and condensation, dark fruits melting into shadow. --- COLOR GRADE: Moody low-key, desaturated with red as the only dominant accent color, deep blacks, cinematic contrast. --- RENDER: Commercial advertising photography, editorial luxury, photoreal, hyperrealistic, 4K, tactile matte texture, natural liquid physics, believable contact shadows. --- NEGATIVE: plastic skin, incorrect fingers, floating objects without contact shadow, generic orange-teal color grading, unnatural perfect symmetry, dead eyes without catchlight, generic blurry backgrounds without narrative, flat lighting without direction, AI-generated look, artificial feel, CGI appearance, oversaturated neon colors, waxy texture, anatomical errors, text artifacts, watermarks, distorted label, warped can geometry, fake-looking ice, floating droplets",
+        "1:1",
+        "2K",
+        "png",
+        true
+      ],
+      "color": "#1a1a1a",
+      "bgcolor": "#0d0d0d"
+    },
+
+    {
+      "id": 12,
+      "type": "KIE_NanoBananaPro_Image",
+      "pos": [700, 1310],
+      "size": [540, 420],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 11, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "image", "type": "IMAGE", "links": [14, 17, 23], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_NanoBananaPro_Image" },
+      "widgets_values": [
+        "HERO PRODUCT SHOT — IGNIS OVERDRIVE (silver/metallic slim can, red calligraphic 'Ignis' logo, 250ml, 'Move Faster Than The Market' tagline). PRODUCT LOCK: preserve EXACT can geometry, label typography, logo placement, brushed silver metallic finish and black asterisk icon from the reference images. Do not invent, modify or distort any branding element. --- SCENE: Single IGNIS OVERDRIVE can centered on a clean white reflective acrylic surface, hero perspective (slight low angle), surrounded by fresh orange slices, whole kumquats, sliced blood orange showing vivid red-orange flesh, fresh mint sprigs, and crystal-clear crushed ice. Condensation droplets glistening on the metallic silver surface, catching light beautifully. Small ice fragments and water droplets scattered around the base. --- BACKGROUND: Clean silver-to-warm-white gradient, luminous, matching the can's metallic identity. Soft warm backlight creating a bright halo behind the can. --- LIGHTING: Soft beauty light from slightly above and camera-left, creating elegant reflections on the brushed metal surface. Gentle rim light for separation. Even fill. Medium contrast, premium clean commercial look. --- CAMERA: 85mm f/1.4, slight low angle hero perspective, shallow depth of field with sharp focus on can surface reflections and logo, citrus fruits artfully arranged with gentle bokeh. --- COLOR GRADE: Clean and bright, warm silver tones, subtle orange accent from the citrus, fresh and premium feel, Hasselblad clarity. --- RENDER: Commercial advertising photography, editorial luxury, photoreal, hyperrealistic, 4K, metallic surface reflections, natural liquid physics, believable contact shadows. --- NEGATIVE: plastic skin, incorrect fingers, floating objects without contact shadow, generic orange-teal color grading, unnatural perfect symmetry, dead eyes without catchlight, generic blurry backgrounds without narrative, flat lighting without direction, AI-generated look, artificial feel, CGI appearance, oversaturated neon colors, waxy texture, anatomical errors, text artifacts, watermarks, distorted label, warped can geometry, fake-looking ice, floating droplets",
+        "1:1",
+        "2K",
+        "png",
+        true
+      ],
+      "color": "#808080",
+      "bgcolor": "#4a4a4a"
+    },
+
+    {
+      "id": 13,
+      "type": "PreviewImage",
+      "pos": [1280, 390],
+      "size": [320, 390],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 12 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "PreviewImage" },
+      "widgets_values": []
+    },
+    {
+      "id": 14,
+      "type": "PreviewImage",
+      "pos": [1280, 850],
+      "size": [320, 390],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 13 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "PreviewImage" },
+      "widgets_values": []
+    },
+    {
+      "id": 15,
+      "type": "PreviewImage",
+      "pos": [1280, 1310],
+      "size": [320, 390],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 14 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "PreviewImage" },
+      "widgets_values": []
+    },
+
+    {
+      "id": 16,
+      "type": "SaveImage",
+      "pos": [1280, 810],
+      "size": [320, 30],
+      "flags": { "collapsed": true },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 15 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveImage" },
+      "widgets_values": ["ignis/cat01/afterburn_hero"]
+    },
+    {
+      "id": 17,
+      "type": "SaveImage",
+      "pos": [1280, 1270],
+      "size": [320, 30],
+      "flags": { "collapsed": true },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 16 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveImage" },
+      "widgets_values": ["ignis/cat01/blackcore_hero"]
+    },
+    {
+      "id": 18,
+      "type": "SaveImage",
+      "pos": [1280, 1730],
+      "size": [320, 30],
+      "flags": { "collapsed": true },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        { "name": "images", "type": "IMAGE", "link": 17 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveImage" },
+      "widgets_values": ["ignis/cat01/overdrive_hero"]
+    },
+
+    {
+      "id": 28,
+      "type": "Note",
+      "pos": [1660, 230],
+      "size": [560, 130],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ZONA D: VIDEO KLING 3.0 — 5 SEGUNDOS CADA UNO\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nCada imagen hero genera un video de 5s con movimiento cinematografico.\nAFTERBURN: Push-in + gota rodando\nBLACK CORE: Dolly in + vapor/humo sutil\nOVERDRIVE: Orbit suave + destello metalico"
+      ],
+      "color": "#a1309b",
+      "bgcolor": "#6b1f67"
+    },
+
+    {
+      "id": 19,
+      "type": "KIE_Kling3_Video",
+      "pos": [1660, 390],
+      "size": [560, 420],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        { "name": "first_frame", "type": "IMAGE", "link": 21, "shape": 7 },
+        { "name": "last_frame", "type": "IMAGE", "link": null, "shape": 7 },
+        { "name": "element", "type": "KIE_ELEMENT", "link": null, "shape": 7 },
+        { "name": "elements", "type": "KIE_ELEMENTS", "link": null, "shape": 7 },
+        { "name": "kling_data", "type": "KIE_KLING3_REQUEST", "link": null, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "video", "type": "VIDEO", "links": [24], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_Kling3_Video" },
+      "widgets_values": [
+        "pro",
+        "1:1",
+        "5",
+        false,
+        "Cinematic product hero video. Use the provided first frame as IMMUTABLE visual anchor: preserve EXACTLY the IGNIS AFTERBURN red can, its label, logo, condensation, the strawberries, cherries, ice arrangement, red gradient background, lighting and composition. Camera: slow cinematic push-in on a 50mm lens toward the can label, very subtle (5% frame), smooth and steady. Action: a single condensation droplet slowly rolls down the can surface catching the side light as it travels, leaving a wet trail. A tiny wisp of cold vapor rises gently from the crushed ice around the base. One strawberry's surface glistens as light shifts during the push-in. Background: completely static red gradient, no changes. Lighting shifts subtly as camera moves, creating gentle specular dance on the wet metal surface. Mood: premium, refreshing, appetizing, commercial advertising film. Technical: 24fps, natural motion blur, no morphing, no warping, no plastic textures, no extra objects appearing, no text changes. The can does NOT move, rotate or change in any way.",
+        "",
+        true,
+        true
+      ],
+      "color": "#8B0000",
+      "bgcolor": "#5a0000"
+    },
+
+    {
+      "id": 20,
+      "type": "KIE_Kling3_Video",
+      "pos": [1660, 850],
+      "size": [560, 420],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        { "name": "first_frame", "type": "IMAGE", "link": 22, "shape": 7 },
+        { "name": "last_frame", "type": "IMAGE", "link": null, "shape": 7 },
+        { "name": "element", "type": "KIE_ELEMENT", "link": null, "shape": 7 },
+        { "name": "elements", "type": "KIE_ELEMENTS", "link": null, "shape": 7 },
+        { "name": "kling_data", "type": "KIE_KLING3_REQUEST", "link": null, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "video", "type": "VIDEO", "links": [25], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_Kling3_Video" },
+      "widgets_values": [
+        "pro",
+        "1:1",
+        "5",
+        false,
+        "Cinematic product hero video. Use the provided first frame as IMMUTABLE visual anchor: preserve EXACTLY the IGNIS BLACK CORE matte black can, its red logo, condensation, the blackberries, dark cherries, dark ice arrangement, black gradient background with red accent, lighting and composition. Camera: very slow dolly in on a 85mm lens, almost imperceptible movement (3% frame), deep and intense. Action: a thin wisp of cold dark vapor/smoke rises slowly and dramatically from behind and around the can base, curling upward and dissipating. Condensation beads on the matte surface catch the rim light, one droplet trembles and begins to slide. The deep red backlight pulses almost imperceptibly, breathing subtle life. Background: static dark gradient with micro-shifts in the red accent glow. Mood: powerful, mysterious, premium, dramatic, moody low-key advertising film. Technical: 24fps, natural motion blur, no morphing, no warping, no plastic textures, no extra objects appearing, no text changes. The can does NOT move, rotate or change in any way.",
+        "",
+        true,
+        true
+      ],
+      "color": "#1a1a1a",
+      "bgcolor": "#0d0d0d"
+    },
+
+    {
+      "id": 21,
+      "type": "KIE_Kling3_Video",
+      "pos": [1660, 1310],
+      "size": [560, 420],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        { "name": "first_frame", "type": "IMAGE", "link": 23, "shape": 7 },
+        { "name": "last_frame", "type": "IMAGE", "link": null, "shape": 7 },
+        { "name": "element", "type": "KIE_ELEMENT", "link": null, "shape": 7 },
+        { "name": "elements", "type": "KIE_ELEMENTS", "link": null, "shape": 7 },
+        { "name": "kling_data", "type": "KIE_KLING3_REQUEST", "link": null, "shape": 7 }
+      ],
+      "outputs": [
+        { "name": "video", "type": "VIDEO", "links": [26], "slot_index": 0 }
+      ],
+      "properties": { "cnr_id": "comfyui-kie-api", "Node name for S&R": "KIE_Kling3_Video" },
+      "widgets_values": [
+        "pro",
+        "1:1",
+        "5",
+        false,
+        "Cinematic product hero video. Use the provided first frame as IMMUTABLE visual anchor: preserve EXACTLY the IGNIS OVERDRIVE silver metallic can, its red logo, condensation, the orange slices, kumquats, mint, ice arrangement, silver-white gradient background, lighting and composition. Camera: very slow gentle orbit/arc (15 degrees total over 5 seconds) moving from front-left to front-right, revealing the metallic surface reflections shifting and dancing as the viewing angle changes. Action: the brushed silver surface catches different specular highlights as the camera orbits, creating a premium metallic shimmer effect. A condensation droplet catches light and sparkles. The crushed ice glistens with shifting reflections. A mint leaf moves imperceptibly in ambient air. Background: clean luminous gradient shifts subtly with the camera orbit. Mood: fresh, premium, clean energy, aspirational, bright commercial advertising film. Technical: 24fps, natural motion blur, smooth steady camera movement, no morphing, no warping, no plastic textures, no extra objects appearing, no text changes. The can does NOT move, only the camera orbits around it.",
+        "",
+        true,
+        true
+      ],
+      "color": "#808080",
+      "bgcolor": "#4a4a4a"
+    },
+
+    {
+      "id": 22,
+      "type": "SaveVideo",
+      "pos": [2260, 390],
+      "size": [320, 240],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        { "name": "video", "type": "VIDEO", "link": 24 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveVideo" },
+      "widgets_values": ["ignis/cat01/afterburn_hero_reel", "auto", "auto"]
+    },
+    {
+      "id": 23,
+      "type": "SaveVideo",
+      "pos": [2260, 850],
+      "size": [320, 240],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        { "name": "video", "type": "VIDEO", "link": 25 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveVideo" },
+      "widgets_values": ["ignis/cat01/blackcore_hero_reel", "auto", "auto"]
+    },
+    {
+      "id": 24,
+      "type": "SaveVideo",
+      "pos": [2260, 1310],
+      "size": [320, 240],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        { "name": "video", "type": "VIDEO", "link": 26 }
+      ],
+      "outputs": [],
+      "properties": { "cnr_id": "comfy-core", "Node name for S&R": "SaveVideo" },
+      "widgets_values": ["ignis/cat01/overdrive_hero_reel", "auto", "auto"]
+    },
+
+    {
+      "id": 29,
+      "type": "Note",
+      "pos": [80, 2060],
+      "size": [1160, 220],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "GUIA DE PROMPT RAPIDO PARA EL OPERADOR\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nPara cambiar la escena de cada shot, edita SOLO las secciones despues de '---' en cada Nano Banana:\n\n  SCENE: Describe cuantas latas, su posicion, que frutas/ingredientes y como estan dispuestos\n  BACKGROUND: Siempre gradiente monocromatico matching al color de la lata\n  LIGHTING: Side light + rim light como base. Cambiar direccion o intensidad segun mood\n  CAMERA: 85mm f/1.4 default. Cambiar angulo si quieres cenital, frontal, etc.\n\nPATRONES DE INGREDIENTES POR VARIANTE:\n  AFTERBURN (roja): fresas, cerezas, grosellas rojas, frambuesas, granada\n  BLACK CORE (negra): moras, cerezas negras, ciruelas oscuras, arandanos, cafe\n  OVERDRIVE (plata): naranja, kumquat, naranja sanguina, menta, limon, jengibre"
+      ],
+      "color": "#222",
+      "bgcolor": "#353"
+    },
+
+    {
+      "id": 30,
+      "type": "Note",
+      "pos": [1280, 2060],
+      "size": [1300, 220],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "GUIA DE VIDEO PARA EL OPERADOR\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nMovimientos de camara pre-asignados por personalidad de variante:\n\n  AFTERBURN (energia): Push-in 50mm + gota rodando + hielo brillando\n  BLACK CORE (poder): Dolly in 85mm ultra lento + vapor oscuro + pulso de luz roja\n  OVERDRIVE (velocidad): Orbit/arc 15 grados + shimmer metalico + reflections dancing\n\nPara cambiar, edita SOLO la seccion 'Camera:' y 'Action:' en cada Kling 3.0.\n\nMOVIMIENTOS DISPONIBLES (segun estandares Arde):\n  Push-in: acercamiento intenso, enfoque en producto\n  Dolly in: acercamiento suave, elegante\n  Orbit/arc: rotacion parcial, descubrimiento\n  Static + micro-mov: estabilidad con vida sutil\n  Crane up: revelacion dramatica\n\nACCIONES RECOMENDADAS PARA HERO BEBIDAS:\n  Gota de condensacion rodando | Vapor/frio subiendo | Reflejo de luz bailando\n  Hielo brillando | Fruta glistening | Mint leaf micro-movimiento"
+      ],
+      "color": "#222",
+      "bgcolor": "#353"
+    }
+  ],
+  "links": [
+    [1, 1, 0, 4, 0, "IMAGE"],
+    [2, 2, 0, 4, 1, "IMAGE"],
+    [3, 3, 0, 5, 1, "IMAGE"],
+    [4, 4, 0, 5, 0, "IMAGE"],
+    [5, 5, 0, 9, 0, "IMAGE"],
+    [6, 6, 0, 8, 0, "IMAGE"],
+    [7, 7, 0, 8, 1, "IMAGE"],
+    [8, 8, 0, 9, 1, "IMAGE"],
+    [9, 9, 0, 10, 0, "IMAGE"],
+    [10, 9, 0, 11, 0, "IMAGE"],
+    [11, 9, 0, 12, 0, "IMAGE"],
+    [12, 10, 0, 13, 0, "IMAGE"],
+    [13, 11, 0, 14, 0, "IMAGE"],
+    [14, 12, 0, 15, 0, "IMAGE"],
+    [15, 10, 0, 16, 0, "IMAGE"],
+    [16, 11, 0, 17, 0, "IMAGE"],
+    [17, 12, 0, 18, 0, "IMAGE"],
+    [21, 10, 0, 19, 0, "IMAGE"],
+    [22, 11, 0, 20, 0, "IMAGE"],
+    [23, 12, 0, 21, 0, "IMAGE"],
+    [24, 19, 0, 22, 0, "VIDEO"],
+    [25, 20, 0, 23, 0, "VIDEO"],
+    [26, 21, 0, 24, 0, "VIDEO"]
+  ],
+  "groups": [
+    {
+      "title": "A. PRODUCTO IGNIS (3 variantes)",
+      "bounding": [60, 250, 600, 1080],
+      "color": "#8B0000",
+      "font_size": 22
+    },
+    {
+      "title": "B. REFERENCIAS DE ESTILO (Cat 01)",
+      "bounding": [60, 1240, 600, 800],
+      "color": "#2d5a27",
+      "font_size": 22
+    },
+    {
+      "title": "C. GENERACION x3 IMAGENES HERO (Nano Banana Pro 4K)",
+      "bounding": [680, 220, 940, 1540],
+      "color": "#594d3f",
+      "font_size": 22
+    },
+    {
+      "title": "D. VIDEO x3 KLING 3.0 PRO (5s cada uno)",
+      "bounding": [1640, 220, 960, 1540],
+      "color": "#a1309b",
+      "font_size": 22
+    },
+    {
+      "title": "E. GUIA DEL OPERADOR",
+      "bounding": [60, 2040, 2540, 260],
+      "color": "#3f5159",
+      "font_size": 22
+    }
+  ],
+  "config": {},
+  "extra": { "ds": { "scale": 0.45, "offset": [0, 0] } },
+  "version": 0.4
+}
