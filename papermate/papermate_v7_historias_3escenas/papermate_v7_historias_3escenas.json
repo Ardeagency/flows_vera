@@ -1,0 +1,900 @@
+{
+  "111": {
+    "inputs": {
+      "image": "papermate_saul/01_character/saul_canonical.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "REF · Saúl canonical"
+    }
+  },
+  "131": {
+    "inputs": {
+      "image": "papermate_saul/05_product_boxes/box_doblepunta56_front.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "REF · BOX front"
+    }
+  },
+  "132": {
+    "inputs": {
+      "image": "papermate_saul/05_product_boxes/box_doblepunta56_left.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "REF · BOX left"
+    }
+  },
+  "152": {
+    "inputs": {
+      "image": "papermate_saul/05_product_pencils/pencils_56_conjunto.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "REF · PENCILS conjunto"
+    }
+  },
+  "141": {
+    "inputs": {
+      "image": "papermate_saul/06_visual_refs/moodboard_images_historias.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "MOODBOARD · IMAGES (historias)"
+    }
+  },
+  "151": {
+    "inputs": {
+      "image": "papermate_saul/04_typography/typography_alphabet.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "TYPO · alphabet"
+    }
+  },
+  "201": {
+    "inputs": {
+      "image1": [
+        "111",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1: Saúl + box front"
+    }
+  },
+  "202": {
+    "inputs": {
+      "image1": [
+        "201",
+        0
+      ],
+      "image2": [
+        "132",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1: + box left"
+    }
+  },
+  "203": {
+    "inputs": {
+      "image1": [
+        "202",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1: + moodboard historias"
+    }
+  },
+  "301": {
+    "inputs": {
+      "prompt": "PAPERMATE MASTER BTS V7 — NBP SCENE BASE · CAMPAÑA: 'LLEGÓ EL DÍA MÁS ESPERADO · DIBUJA Y DIVIÉRTETE CON PAPERMATE' · ESCENA: 'LLEGÓ EL DÍA MÁS ESPERADO'.\n\n**The 4 reference images have STRICT ROLES — apply each correctly:**\n• **IMAGE 1 = SAÚL CANONICAL (the only character reference).** Match identity EXACTLY — chibi proportions, ear-tufts with white tips (NO forelock, NO fringe), dark-frame round glasses, large green eyes with prominent catchlight, small orange triangular beak, golden yellow body smooth Pixar surface (NOT realistic owl, NOT fluffy plumage), simple plain RED T-SHIRT (vibrant red ~#E63027, NO graphics, NO logos, NO varsity, NO P-patch), TINY YELLOW PAW-LIKE wing-hands with rounded paw-pads (NOT bird talons, NOT claws, NOT realistic owl feet), stubby short legs with yellow-orange ROUNDED feet (paw-shaped, NOT bird talons, NOT claws).\n• **IMAGES 2, 3 = PRODUCT LOCK (Paper Mate Doblepunta 56 cardboard package, 2 angles).** Match shape, all printed graphics, clear plastic window with 28 dual-tip pencils visible inside EXACTLY.\n• **IMAGE 4 = MOODBOARD GRID (12 Papermate brand pieces).** Use ONLY for: overall aesthetic vibe, lighting style, color palette, atmospheric mood. DO NOT copy character pose, product, or text from moodboard.\n\nGENERATION GOAL\nCreate a fresh 3D Pixar-style cartoon illustration of SAÚL standing at the SCHOOL EXTERIOR ENTRANCE on the first day of class, holding the Paper Mate Doblepunta 56 box at chest height with both wing-hands. Cinematic warm morning golden hour with floating colored pencils + sparkles. Saúl wears a small school backpack on his back. CRITICAL: keep his identity EXACTLY as image 1.\n\nSCENE — 'LLEGÓ EL DÍA MÁS ESPERADO.'\nSaúl ARRIVING at the SCHOOL EXTERIOR ENTRANCE — a cinematic shot in front of a classic school building (red-brick or pastel-toned facade with arched main door, school bell visible above, the word 'ESCUELA' or generic school sign carved in stone above the doorway, autumnal trees flanking the path, fallen colorful leaves on the brick walkway, school flag fluttering). Golden hour morning sunlight bathes the entrance. He stands centered on the path with PURE ANTICIPATION on his face, holding the closed Paper Mate Doblepunta 56 cardboard package with BOTH wing-hands at chest height, presenting it frontal to camera. Small school backpack on his back (both straps visible). 6-8 floating colored pencils suspended in air around him as magical confetti. White sparkles ✦ + golden dust particles in the warm sunlight. His face BEAMS: big wide open green eyes with prominent catchlight, beak open in a happy excited 'wow' smile.\n\nVIEW & POSE\nMedium shot showing Saúl from head to mid-thigh, full chibi body, frontal stance facing camera, both wing-hands holding the package at chest level.\n\nCHARACTER (preserve identity from image 1 EXACTLY)\n• Chibi proportions (large round head + small short body, ~3 heads tall)\n• Two short pointed FEATHER TUFTS on top with WHITE-TIPPED ends\n• Large round dark-frame round glasses\n• Large round green eyes wide open with prominent catchlight\n• Small orange triangular beak\n• Smooth stylized golden yellow body (~#F4C220)\n• Plain short-sleeved RED T-SHIRT (~#E63027), no graphics\n• TINY YELLOW PAW-LIKE wing-hands (rounded paw-pads, max 3-4 short nubs)\n• Stubby short legs with yellow-orange ROUNDED FEET (paw-shaped nubs, NOT bird talons, NOT claws, NOT realistic owl talons)\n\nCRITICAL ANTI-DEFORMATION:\n• Saúl's wing-hands are PAW-LIKE NUBS — like soft kitten paws, NOT bird talons, NOT eagle claws, NOT realistic owl claws\n• Saúl's feet are SOFT ROUNDED NUBS in yellow-orange — NOT talons, NOT claws, NOT realistic bird feet\n• Saúl's body proportions stay chibi (3 heads tall) — DO NOT make him bigger, taller, or stretched\n• Pure anticipation expression: big wide eyes, beak open in 'wow' happy smile\n• Both wing-hands holding the closed package FRONTAL to camera at chest height\n• Small school backpack visible on his back (both straps)\n\nPRODUCT (preserve from images 2, 3)\n• FLAT SQUARE CARDBOARD package (~1:1 aspect), NOT a metal tin\n• Package CLOSED, frontal face visible\n• Clear plastic window in center with 28 dual-tip colored pencils visible inside\n• Vibrant CYAN/Papermate-blue background with hand-drawn doodles\n• All printed elements crisp and legible: 'Paper Mate' wordmark with red script + heart, 'MINA GRUESA 4.0mm', yellow badges '56 COLORES / CONT. 28 PZAS.', vertical yellow strip 'INCLUYE COLORES: 8 METÁLICOS / 8 PASTEL / 2 NEÓN', magenta callouts 'PUNTA + GRUESA y RESISTENTE' with mini-Saúl illustration, white callout 'MÁS COLOR, MÁS DIVERSIÓN', bottom band 'DOBLE PUNTA · REDONDO', ¡NUEVO! corner ribbon\n• Held at chest height with both wing-hands · package occupies approx 28-32% of frame center\n\nENVIRONMENT — School EXTERIOR ENTRANCE cinematic\n• Classic school building facade behind Saúl (red brick or warm pastel render, arched wooden main door, white-framed windows, school bell on small tower above)\n• 'ESCUELA' sign or carved stone plaque above the entrance arch\n• Brick walkway underfoot leading to the door\n• Autumnal trees flanking the entrance with warm golden-orange foliage\n• Scattered colorful fallen leaves on the brick path\n• School flag on a small pole, gently fluttering in soft breeze\n• Soft volumetric morning sun rays slicing through the trees\n• 6-8 colored pencils floating suspended in air around Saúl\n• White sparkles ✦ + golden dust particles\n• Color palette: warm golden-orange autumnal + red-brick warmth + cyan-Papermate accents from box + multicolor floating pencils\n• NO other owls — Saúl is the only owl character\n\nLAYOUT\n• Saúl + package occupy upper 70-75% of vertical 9:16 frame\n• School entrance facade fills mid-upper background\n• Bottom 25–30% kept CLEAN (brick path with warm light reflection + a few drifting pencils and leaves) — typography would be added later in a separate pass\n\nCAMERA: 35mm f/2.8 · medium shot at slight low angle (~10° upward, heroic anticipation energy) · vertical 9:16 1080×1920 · medium-shallow DOF\n\nLIGHTING: bright warm golden-hour key from frame-left (low morning sun behind the trees) · backlight rim creating a halo around Saúl and the package · soft front fill bouncing from brick path · subtle long ground shadow\n\nMOOD: PURE ANTICIPATION, the most awaited day has arrived at school, magical cinematic first-day-of-class energy. Pixar/Disney commercial 3D animation aesthetic — similar to opening shot of an animated school-themed feature.\n\nIMPORTANT — keep the package face elements ONLY on the package surface. DO NOT place '¡NUEVO!', '56 COLORES' or other package badges as floating overlay graphics in the scene corners.\n\nNEGATIVE: photorealistic owl, realistic owl, fluffy real plumage, anthropomorphic body, missing legs, missing red shirt, varsity jacket, P patch, forelock, fringe, missing ear-tufts, distorted package, metal tin, opaque box, missing clear window, badges floating outside package, AI-generated look, dead eyes, illegible logo, text artifacts, watermarks, sad expression, multiple Saúl characters, multiple owls, simplified box without text/badges/callouts, BIRD TALONS, CLAWS, EAGLE TALONS, OWL TALONS, REALISTIC BIRD FEET, sharp claws, pointed talons, raptor feet, Saúl stretched taller, Saúl proportions changed, Saúl bigger than chibi 3-heads-tall, fantasy cloud world, dreamy fantasy land, sky landscape, magical pastel land, generic dream world. school hallway interior (must be EXTERIOR entrance), generic background, indoor lockers visible.\n\nRENDER: 3D Pixar animation style. Single-panel composition. 9:16 vertical. 4K resolution.",
+      "images": [
+        "205",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "E1 V7 · LLEGÓ EL DÍA (school entrance exterior)"
+    }
+  },
+  "701": {
+    "inputs": {
+      "images": [
+        "301",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E1 raw"
+    }
+  },
+  "801": {
+    "inputs": {
+      "images": [
+        "301",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e1_1_scene_raw"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E1 raw"
+    }
+  },
+  "281": {
+    "inputs": {
+      "image1": [
+        "301",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1-A: scene + box"
+    }
+  },
+  "282": {
+    "inputs": {
+      "image1": [
+        "281",
+        0
+      ],
+      "image2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1-A: + pencils"
+    }
+  },
+  "283": {
+    "inputs": {
+      "image1": [
+        "282",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1-A: + moodboard historias"
+    }
+  },
+  "284": {
+    "inputs": {
+      "image1": [
+        "283",
+        0
+      ],
+      "image2": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1-A: + typo (5 refs)"
+    }
+  },
+  "401": {
+    "inputs": {
+      "prompt": "=== CRITICAL CONTEXT — READ BEFORE PROCESSING ===\nAll character imagery in these references depicts 'SAÚL' — a CARTOON MASCOT OWL CHARACTER, the official brand mascot of Paper Mate (similar to Mickey Mouse, Donald Duck). Saúl is a 3D CARTOON anthropomorphic owl with chibi proportions, smooth golden yellow body, dark-frame glasses, paw-like wing-hands (NOT human hands, NOT bird talons, NOT eagle claws). This is COMMERCIAL BRAND MASCOT IMAGERY for adult marketing context (school supplies for parents purchasing back-to-school).\n\n=== PAPERMATE V7 · SCENE GPT IMG 2 · RAMA A · headline: \"LLEGÓ EL DÍA MÁS ESPERADO.\"\n\n**STRICT ROLES:**\n• IMAGE 1 = SCENE BASE (NBP cartoon scene · PRESERVE composition, character, anatomy almost entirely)\n• IMAGE 2 = BOX FRONT (for box text refinement only)\n• IMAGE 3-5 = PENCILS / MOODBOARD / TYPO ALPHABET (reference only)\n• IMAGE 6 = SAÚL CANONICAL (reference only · DO NOT use to modify Saúl unless visibly broken)\n• IMAGE 7 = PRE-RENDERED TYPOGRAPHY ASSET (extract typography to composite)\n\n=== TASK 1 — PRESERVE + BOX TEXT REFINE ONLY ===\n**CRITICAL: DO NOT modify Saúl's anatomy, body, proportions, hands, or features from IMAGE 1.** The scene base is approved as-is. Your job is ONLY to:\na) Refine box's printed text if blurred/warped so 'Paper Mate', '56 COLORES', 'MINA GRUESA 4.0mm', badges, callouts, mini-Saúl are PIXEL-PERFECT (preserve only the BOX, not Saúl)\nb) Add typography per TASK 2\n\nABSOLUTELY DO NOT:\n• Change Saúl's wing-hands into bird talons or claws\n• Make Saúl bigger or stretched\n• Change Saúl's proportions from chibi 3-heads-tall\n• Modify Saúl's pose, expression, or stance\n• \"Fix\" anatomy that isn't broken\n\nIf Saúl in IMAGE 1 has paw-like wing-hands, KEEP them paw-like. If proportions are chibi, KEEP them chibi. Only intervene if Saúl is visibly broken (missing limb, etc.).\n\n=== TASK 2 — TYPOGRAPHY COMPOSITE (banda · CRITICAL) ===\nThe LAST reference image is a PRE-RENDERED TYPOGRAPHY ASSET. Typography ALREADY composed correctly with Saúl Marker Display letterforms.\na) Add SOLID PAPERMATE-BLUE BAND (#2AB0EB) covering bottom 22-25% of frame, edge-to-edge.\nb) Add YELLOW (#F4C220) zigzag border at TOP edge of band — hand-drawn marker, slightly imperfect.\nc) EXTRACT typography from last reference and PLACE on the band, centered.\nd) PRESERVE EXACT LETTERFORMS — trace stroke by stroke from the asset.\n\n\nRENDER: 9:16 vertical 4K. Pixar 3D scene PRESERVED + only box text refine + typography composite.",
+      "images": [
+        "960",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "log": true
+    },
+    "class_type": "KIE_GPTImage2_I2I",
+    "_meta": {
+      "title": "401 · E1 RAMA A V7"
+    }
+  },
+  "702": {
+    "inputs": {
+      "images": [
+        "401",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E1 imagen final"
+    }
+  },
+  "802": {
+    "inputs": {
+      "images": [
+        "401",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e1_2_imagen_final_4K"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E1 imagen final"
+    }
+  },
+  "211": {
+    "inputs": {
+      "image1": [
+        "111",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2: Saúl + box"
+    }
+  },
+  "212": {
+    "inputs": {
+      "image1": [
+        "211",
+        0
+      ],
+      "image2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2: + pencils"
+    }
+  },
+  "213": {
+    "inputs": {
+      "image1": [
+        "212",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2: + moodboard"
+    }
+  },
+  "311": {
+    "inputs": {
+      "prompt": "PAPERMATE MASTER BTS V7 — NBP SCENE BASE · CAMPAÑA: 'LLEGÓ EL DÍA MÁS ESPERADO · DIBUJA Y DIVIÉRTETE CON PAPERMATE' · ESCENA: 'DIBUJA SIN PARAR'.\n\n**The 5 reference images have STRICT ROLES — apply each correctly:**\n• **IMAGE 1 = SAÚL CANONICAL (the only character reference).** Match identity EXACTLY — chibi proportions, ear-tufts with white tips (NO forelock, NO fringe), dark-frame round glasses, large green eyes with prominent catchlight, small orange triangular beak, golden yellow body smooth Pixar surface (NOT realistic owl, NOT fluffy plumage), simple plain RED T-SHIRT (vibrant red ~#E63027, NO graphics, NO logos, NO varsity, NO P-patch), TINY YELLOW PAW-LIKE wing-hands with rounded paw-pads (NOT bird talons, NOT claws, NOT realistic owl feet), stubby short legs with yellow-orange ROUNDED feet (paw-shaped, NOT bird talons, NOT claws).\n• **IMAGES 2, 3 = PRODUCT LOCK (Paper Mate Doblepunta 56 cardboard package, 2 angles).** Match shape, all printed graphics, clear plastic window with 28 dual-tip pencils visible inside EXACTLY.\n• **IMAGE 4 = PENCILS DETAIL (28 dual-tip colored pencils, 56 colors).** Use for accurate pencil detail.\n• **IMAGE 5 = MOODBOARD GRID (12 Papermate brand pieces).** Use ONLY for: overall aesthetic vibe, lighting style, color palette, atmospheric mood. DO NOT copy character pose, product, or text from moodboard.\n\nGENERATION GOAL\nCreate a fresh 3D Pixar-style cartoon illustration of SAÚL drawing energetically inside a SCHOOL LIBRARY (NOT classroom desk, NOT abstract workshop) — tall wooden bookshelves filled with colorful books behind him, cozy library reading table where the Doblepunta 56 box sits open, rainbow magic streaks flowing from the pencil tip. Pure school library atmosphere with magic. CRITICAL: keep his identity EXACTLY as image 1.\n\nSCENE — 'DIBUJA SIN PARAR.'\nSaúl in a SCHOOL LIBRARY — a cozy room with tall wooden bookshelves filling the background packed with colorful books, soft warm reading lamps on the table, a globe and stacked open books on the side table, framed children's drawings pinned to a corkboard between shelves. He sits at a child-sized library reading table (wooden, slightly low-poly Pixar style) with a sheet of paper in front of him. The Paper Mate Doblepunta 56 box is OPEN on the library table beside the sheet. He holds a dual-tip Paper Mate Doblepunta pencil up in one wing-hand, mid-motion drawing. From the pencil tip, RAINBOW TRAILS of colorful streaks flow magically upward into the library air — ribbons of color curling up between the bookshelves. 4-6 dual-tip pencils float magically around him in soft motion suspension. His expression is FOCUSED CREATIVE JOY: eyes alight with concentration and happiness, small soft smile of focus, ear-tufts slightly raised. Magical sparkles + colorful streaks dispersed in the warm library air.\n\nVIEW & POSE\nMedium shot showing Saúl from head to mid-torso at the library reading table, frontal-3/4 angle, slight low angle (~5° upward). Library table edge visible in foreground.\n\nCHARACTER (preserve identity from image 1 EXACTLY)\n• Chibi proportions (large round head + small short body, ~3 heads tall)\n• Two short pointed FEATHER TUFTS on top with WHITE-TIPPED ends\n• Large round dark-frame round glasses\n• Large round green eyes wide open with prominent catchlight\n• Small orange triangular beak\n• Smooth stylized golden yellow body (~#F4C220)\n• Plain short-sleeved RED T-SHIRT (~#E63027), no graphics\n• TINY YELLOW PAW-LIKE wing-hands (rounded paw-pads, max 3-4 short nubs)\n• Stubby short legs with yellow-orange ROUNDED FEET (paw-shaped nubs, NOT bird talons, NOT claws, NOT realistic owl talons)\n\nCRITICAL ANTI-DEFORMATION:\n• Saúl's wing-hands are PAW-LIKE NUBS — like soft kitten paws, NOT bird talons, NOT eagle claws, NOT realistic owl claws\n• Saúl's feet are SOFT ROUNDED NUBS in yellow-orange — NOT talons, NOT claws, NOT realistic bird feet\n• Saúl's body proportions stay chibi (3 heads tall) — DO NOT make him bigger, taller, or stretched\n• Focused creative joy expression: eyes alight, beak in small smile of focus\n• One wing-hand raised holding a dual-tip pencil mid-drawing motion (slight motion blur)\n• Other wing-hand resting on the paper on the library table\n• Seated at child-sized library reading table\n\nPRODUCT (preserve from images 2, 3)\n• FLAT SQUARE CARDBOARD package (~1:1 aspect), NOT a metal tin\n• Package ABIERTA showing the 28 dual-tip pencils inside in 2 rows\n• Clear plastic window in center with 28 dual-tip colored pencils visible inside\n• Vibrant CYAN/Papermate-blue background with hand-drawn doodles\n• All printed elements crisp and legible: 'Paper Mate' wordmark with red script + heart, 'MINA GRUESA 4.0mm', yellow badges '56 COLORES / CONT. 28 PZAS.', vertical yellow strip 'INCLUYE COLORES: 8 METÁLICOS / 8 PASTEL / 2 NEÓN', magenta callouts 'PUNTA + GRUESA y RESISTENTE' with mini-Saúl illustration, white callout 'MÁS COLOR, MÁS DIVERSIÓN', bottom band 'DOBLE PUNTA · REDONDO', ¡NUEVO! corner ribbon\n• Box open on the library reading table beside Saúl's drawing sheet · package occupies approx 18-22% of frame area\n• Some pencils have left the box and float around Saúl\n\nPENCILS (preserve from image 4)\n• 28 dual-tip pencils total (each pencil has 2 different colored tips)\n• 24 visible in the open box on the library table\n• 4-6 dual-tip pencils FLOATING around Saúl in soft motion suspension\n• Colors: 8 metálicos brillan, 8 pastel suaves, 2 neón fluorescentes with their own glow\n• Rainbow trails of colorful streaks flowing UP from the pencil tip into the library air\n\nENVIRONMENT — SCHOOL LIBRARY (BTS · NOT classroom, NOT workshop)\n• Tall wooden bookshelves packed with colorful books fill the background\n• Warm reading lamps with soft yellow glow on the table edges\n• A globe and stacked open books on a side table\n• Framed children's drawings pinned to a corkboard between shelves\n• Wooden plank floor in deep bokeh\n• Rainbow trails + colorful streaks flowing up from the pencil tip\n• White sparkles ✦ + golden particles dispersed\n• Color palette: warm wood library tones + cyan-Papermate accents from box + multicolor rainbow trails + multicolor book spines\n• NO other owls\n\nLAYOUT\n• Saúl + library reading table + floating pencils + rainbow trails + box occupy upper 70-75% of vertical 9:16 frame\n• Bookshelves fill mid-upper background\n• Bottom 25–30% kept CLEAN (library table edge with soft warm shadow + drifting color particles) — typography would be added later\n\nCAMERA: 50mm f/1.8 · medium shot 3/4 angle at slight low angle (~5°) · vertical 9:16 1080×1920 · shallow DOF (background books in soft bokeh)\n\nLIGHTING: warm library reading-lamp key from frame-left · soft tungsten ambient from background lamps · backlight halo glow with colorful magical accent · soft front fill · accent sparkle on rainbow trails\n\nMOOD: focused creative joy at the school library, drawing without stopping, the quiet magic of imagination unfolding among books. Pixar/Disney commercial 3D animation aesthetic.\n\nIMPORTANT — keep the package face elements ONLY on the package surface. DO NOT place '¡NUEVO!', '56 COLORES' or other package badges as floating overlay graphics in the scene corners.\n\nNEGATIVE: photorealistic owl, realistic owl, fluffy real plumage, anthropomorphic body, missing legs, missing red shirt, varsity jacket, P patch, forelock, fringe, missing ear-tufts, distorted package, metal tin, opaque box, missing clear window, badges floating outside package, AI-generated look, dead eyes, illegible logo, text artifacts, watermarks, sad expression, multiple Saúl characters, multiple owls, simplified box without text/badges/callouts, BIRD TALONS, CLAWS, EAGLE TALONS, OWL TALONS, REALISTIC BIRD FEET, sharp claws, pointed talons, raptor feet, Saúl stretched taller, Saúl proportions changed, Saúl bigger than chibi 3-heads-tall, fantasy cloud world, dreamy fantasy land, sky landscape, magical pastel land, generic dream world. classroom desk setting (must be SCHOOL LIBRARY with bookshelves), abstract workshop, fantasy world, no rainbow trails.\n\nRENDER: 3D Pixar animation style. Single-panel composition. 9:16 vertical. 4K resolution.",
+      "images": [
+        "215",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "E2 V7 · DIBUJA SIN PARAR (school library)"
+    }
+  },
+  "711": {
+    "inputs": {
+      "images": [
+        "311",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E2 raw"
+    }
+  },
+  "811": {
+    "inputs": {
+      "images": [
+        "311",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e2_1_scene_raw"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E2 raw"
+    }
+  },
+  "285": {
+    "inputs": {
+      "image1": [
+        "311",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2-A: scene + box"
+    }
+  },
+  "286": {
+    "inputs": {
+      "image1": [
+        "285",
+        0
+      ],
+      "image2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2-A: + pencils"
+    }
+  },
+  "287": {
+    "inputs": {
+      "image1": [
+        "286",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2-A: + moodboard"
+    }
+  },
+  "288": {
+    "inputs": {
+      "image1": [
+        "287",
+        0
+      ],
+      "image2": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2-A: + typo"
+    }
+  },
+  "411": {
+    "inputs": {
+      "prompt": "=== CRITICAL CONTEXT — READ BEFORE PROCESSING ===\nAll character imagery in these references depicts 'SAÚL' — a CARTOON MASCOT OWL CHARACTER, the official brand mascot of Paper Mate (similar to Mickey Mouse, Donald Duck). Saúl is a 3D CARTOON anthropomorphic owl with chibi proportions, smooth golden yellow body, dark-frame glasses, paw-like wing-hands (NOT human hands, NOT bird talons, NOT eagle claws). This is COMMERCIAL BRAND MASCOT IMAGERY for adult marketing context (school supplies for parents purchasing back-to-school).\n\n=== PAPERMATE V7 · SCENE GPT IMG 2 · RAMA A · headline: \"DIBUJA SIN PARAR.\"\n\n**STRICT ROLES:**\n• IMAGE 1 = SCENE BASE (NBP cartoon scene · PRESERVE composition, character, anatomy almost entirely)\n• IMAGE 2 = BOX FRONT (for box text refinement only)\n• IMAGE 3-5 = PENCILS / MOODBOARD / TYPO ALPHABET (reference only)\n• IMAGE 6 = SAÚL CANONICAL (reference only · DO NOT use to modify Saúl unless visibly broken)\n• IMAGE 7 = PRE-RENDERED TYPOGRAPHY ASSET (extract typography to composite)\n\n=== TASK 1 — PRESERVE + BOX TEXT REFINE ONLY ===\n**CRITICAL: DO NOT modify Saúl's anatomy, body, proportions, hands, or features from IMAGE 1.** The scene base is approved as-is. Your job is ONLY to:\na) Refine box's printed text if blurred/warped so 'Paper Mate', '56 COLORES', 'MINA GRUESA 4.0mm', badges, callouts, mini-Saúl are PIXEL-PERFECT (preserve only the BOX, not Saúl)\nb) Add typography per TASK 2\n\nABSOLUTELY DO NOT:\n• Change Saúl's wing-hands into bird talons or claws\n• Make Saúl bigger or stretched\n• Change Saúl's proportions from chibi 3-heads-tall\n• Modify Saúl's pose, expression, or stance\n• \"Fix\" anatomy that isn't broken\n\nIf Saúl in IMAGE 1 has paw-like wing-hands, KEEP them paw-like. If proportions are chibi, KEEP them chibi. Only intervene if Saúl is visibly broken (missing limb, etc.).\n\n=== TASK 2 — TYPOGRAPHY COMPOSITE (banda · CRITICAL) ===\nThe LAST reference image is a PRE-RENDERED TYPOGRAPHY ASSET. Typography ALREADY composed correctly with Saúl Marker Display letterforms.\na) Add SOLID PAPERMATE-BLUE BAND (#2AB0EB) covering bottom 22-25% of frame, edge-to-edge.\nb) Add YELLOW (#F4C220) zigzag border at TOP edge of band — hand-drawn marker, slightly imperfect.\nc) EXTRACT typography from last reference and PLACE on the band, centered.\nd) PRESERVE EXACT LETTERFORMS — trace stroke by stroke from the asset.\n\n\nRENDER: 9:16 vertical 4K. Pixar 3D scene PRESERVED + only box text refine + typography composite.",
+      "images": [
+        "962",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "log": true
+    },
+    "class_type": "KIE_GPTImage2_I2I",
+    "_meta": {
+      "title": "411 · E2 RAMA A V7"
+    }
+  },
+  "712": {
+    "inputs": {
+      "images": [
+        "411",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E2 imagen final"
+    }
+  },
+  "812": {
+    "inputs": {
+      "images": [
+        "411",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e2_2_imagen_final_4K"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E2 imagen final"
+    }
+  },
+  "221": {
+    "inputs": {
+      "image1": [
+        "111",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3: Saúl + box"
+    }
+  },
+  "222": {
+    "inputs": {
+      "image1": [
+        "221",
+        0
+      ],
+      "image2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3: + pencils"
+    }
+  },
+  "223": {
+    "inputs": {
+      "image1": [
+        "222",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3: + moodboard"
+    }
+  },
+  "321": {
+    "inputs": {
+      "prompt": "PAPERMATE MASTER BTS V7 — NBP SCENE BASE · CAMPAÑA: 'LLEGÓ EL DÍA MÁS ESPERADO · DIBUJA Y DIVIÉRTETE CON PAPERMATE' · ESCENA: 'DIVIÉRTETE'.\n\n**The 4 reference images have STRICT ROLES — apply each correctly:**\n• **IMAGE 1 = SAÚL CANONICAL (the only character reference).** Match identity EXACTLY — chibi proportions, ear-tufts with white tips (NO forelock, NO fringe), dark-frame round glasses, large green eyes with prominent catchlight, small orange triangular beak, golden yellow body smooth Pixar surface (NOT realistic owl, NOT fluffy plumage), simple plain RED T-SHIRT (vibrant red ~#E63027, NO graphics, NO logos, NO varsity, NO P-patch), TINY YELLOW PAW-LIKE wing-hands with rounded paw-pads (NOT bird talons, NOT claws, NOT realistic owl feet), stubby short legs with yellow-orange ROUNDED feet (paw-shaped, NOT bird talons, NOT claws).\n• **IMAGES 2, 3 = PRODUCT LOCK (Paper Mate Doblepunta 56 cardboard package, 2 angles).** Match shape, all printed graphics, clear plastic window with 28 dual-tip pencils visible inside EXACTLY.\n• **IMAGE 4 = MOODBOARD GRID (12 Papermate brand pieces).** Use ONLY for: overall aesthetic vibe, lighting style, color palette, atmospheric mood. DO NOT copy character pose, product, or text from moodboard.\n\nGENERATION GOAL\nCreate a fresh 3D Pixar-style cartoon illustration of SAÚL having pure FUN in the SCHOOL PLAYGROUND / RECREO area where his drawings are coming alive around him — crayon-style drawings of sun, animals, flowers floating in 3D space against the playground backdrop. Swings, slide, climbing-frame visible in background. Saúl celebrates with a dual-tip pencil raised triumphantly. Pure school recess magic. CRITICAL: keep his identity EXACTLY as image 1.\n\nSCENE — 'DIVIÉRTETE.'\nSaúl in the SCHOOL PLAYGROUND during recess — a sunlit outdoor school yard with classic school playground elements visible: red-and-blue swings on a metal frame, a yellow tube slide, a small climbing frame, sandbox edge, a basketball hoop on the wall of the school building in the background. Asphalt with chalk hopscotch drawn on the ground. Around him, COLORFUL CRAYON-STYLE DRAWINGS come alive in 3D space — a smiling drawn sun with rays, a happy cloud, a cute lion or butterfly, drawn flowers — all in childlike crayon texture floating around him IN the playground space. Saúl celebrates with PURE FUN: slight joyful jump with arms raised triumphantly, holding a Paper Mate Doblepunta dual-tip pencil up in one wing-hand. Big happy LAUGHING smile, eyes shining with playful joy, beak wide open. The Paper Mate Doblepunta 56 box visible on the asphalt near a chalk hopscotch grid. Magical colorful trails/sparkles around the moment.\n\nVIEW & POSE\nMedium 3/4 shot of Saúl from head to legs, frontal-3/4 angle, slight low angle (~5° upward), celebratory fun pose with pencil raised triumphantly.\n\nCHARACTER (preserve identity from image 1 EXACTLY)\n• Chibi proportions (large round head + small short body, ~3 heads tall)\n• Two short pointed FEATHER TUFTS on top with WHITE-TIPPED ends\n• Large round dark-frame round glasses\n• Large round green eyes wide open with prominent catchlight\n• Small orange triangular beak\n• Smooth stylized golden yellow body (~#F4C220)\n• Plain short-sleeved RED T-SHIRT (~#E63027), no graphics\n• TINY YELLOW PAW-LIKE wing-hands (rounded paw-pads, max 3-4 short nubs)\n• Stubby short legs with yellow-orange ROUNDED FEET (paw-shaped nubs, NOT bird talons, NOT claws, NOT realistic owl talons)\n\nCRITICAL ANTI-DEFORMATION:\n• Saúl's wing-hands are PAW-LIKE NUBS — like soft kitten paws, NOT bird talons, NOT eagle claws, NOT realistic owl claws\n• Saúl's feet are SOFT ROUNDED NUBS in yellow-orange — NOT talons, NOT claws, NOT realistic bird feet\n• Saúl's body proportions stay chibi (3 heads tall) — DO NOT make him bigger, taller, or stretched\n• Big happy LAUGHING smile (mouth open in joy)\n• Eyes shining with playful joy\n• Ear-tufts raised in celebratory energy\n• One wing-hand raised holding a Paper Mate Doblepunta pencil triumphantly\n• Other wing-hand in playful gesture (open, or with another pencil)\n• Celebratory body pose (slight joyful jump or jumping stance)\n\nPRODUCT (preserve from images 2, 3)\n• FLAT SQUARE CARDBOARD package (~1:1 aspect), NOT a metal tin\n• Package ABIERTA showing the 28 dual-tip pencils inside in 2 rows\n• Clear plastic window in center with 28 dual-tip colored pencils visible inside\n• Vibrant CYAN/Papermate-blue background with hand-drawn doodles\n• All printed elements crisp and legible: 'Paper Mate' wordmark with red script + heart, 'MINA GRUESA 4.0mm', yellow badges '56 COLORES / CONT. 28 PZAS.', vertical yellow strip 'INCLUYE COLORES: 8 METÁLICOS / 8 PASTEL / 2 NEÓN', magenta callouts 'PUNTA + GRUESA y RESISTENTE' with mini-Saúl illustration, white callout 'MÁS COLOR, MÁS DIVERSIÓN', bottom band 'DOBLE PUNTA · REDONDO', ¡NUEVO! corner ribbon\n• Box visible on the asphalt ground near a chalk hopscotch grid beside Saúl · package occupies approx 15-20% of lower frame area\n\nENVIRONMENT — SCHOOL PLAYGROUND / RECREO (BTS · NOT fantasy world)\n• Sunlit outdoor school yard / playground area\n• Red-and-blue swings on a metal frame visible (mid-background)\n• Yellow tube slide visible\n• Small climbing frame / monkey-bars\n• Sandbox edge\n• Basketball hoop mounted on the school building wall in deep background\n• Asphalt ground with white chalk hopscotch grid (1-2-3 squares visible)\n• School building wall in deep bokeh\n• 4-6 colorful CRAYON-STYLE drawings coming alive in 3D space around Saúl: smiling sun, happy cloud, cute lion or butterfly, flowers\n• Magical colorful trails/swirls flowing around Saúl\n• White sparkles ✦ + golden particles\n• Color palette: sunny playground warm + red/blue swing accents + yellow slide + multicolor crayon drawings + Papermate cyan/magenta accents from box\n• NO other owls\n\nLAYOUT\n• Saúl + raised pencil + floating drawings + playground equipment + box occupy upper 75% of vertical 9:16 frame\n• Bottom 25–30% kept CLEAN (asphalt with chalk hopscotch + soft sunlit shadows) — typography and Paper❤Mate wordmark would be added later\n\nCAMERA: 50mm f/1.8 · medium 3/4 shot at slight low angle (~5° upward) · vertical 9:16 1080×1920 · shallow DOF\n\nLIGHTING: bright sunny midday key light from above · soft fill from asphalt bounce · backlight halo · accent sparkle on the floating drawings + magical trails\n\nMOOD: pure FUN celebration at school recess, big happy magical energy, drawings coming alive during playtime at the school playground. Pixar/Disney commercial 3D animation aesthetic.\n\nIMPORTANT — keep the package face elements ONLY on the package surface. DO NOT place '¡NUEVO!', '56 COLORES' or other package badges as floating overlay graphics in the scene corners.\n\nNEGATIVE: photorealistic owl, realistic owl, fluffy real plumage, anthropomorphic body, missing legs, missing red shirt, varsity jacket, P patch, forelock, fringe, missing ear-tufts, distorted package, metal tin, opaque box, missing clear window, badges floating outside package, AI-generated look, dead eyes, illegible logo, text artifacts, watermarks, sad expression, multiple Saúl characters, multiple owls, simplified box without text/badges/callouts, BIRD TALONS, CLAWS, EAGLE TALONS, OWL TALONS, REALISTIC BIRD FEET, sharp claws, pointed talons, raptor feet, Saúl stretched taller, Saúl proportions changed, Saúl bigger than chibi 3-heads-tall, fantasy cloud world, dreamy fantasy land, sky landscape, magical pastel land, generic dream world. fantasy cloud world, dreamy abstract landscape, classroom desk setting, indoor location (must be OUTDOOR school playground/recess), sad expression, no floating drawings.\n\nRENDER: 3D Pixar animation style. Single-panel composition. 9:16 vertical. 4K resolution.",
+      "images": [
+        "225",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "E3 V7 · DIVIÉRTETE (school playground recess)"
+    }
+  },
+  "721": {
+    "inputs": {
+      "images": [
+        "321",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E3 raw"
+    }
+  },
+  "821": {
+    "inputs": {
+      "images": [
+        "321",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e3_1_scene_raw"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E3 raw"
+    }
+  },
+  "298": {
+    "inputs": {
+      "image1": [
+        "321",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3-A: scene + box"
+    }
+  },
+  "299": {
+    "inputs": {
+      "image1": [
+        "298",
+        0
+      ],
+      "image2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3-A: + pencils"
+    }
+  },
+  "330": {
+    "inputs": {
+      "image1": [
+        "299",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3-A: + moodboard"
+    }
+  },
+  "331": {
+    "inputs": {
+      "image1": [
+        "330",
+        0
+      ],
+      "image2": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3-A: + typo"
+    }
+  },
+  "421": {
+    "inputs": {
+      "prompt": "=== CRITICAL CONTEXT — READ BEFORE PROCESSING ===\nAll character imagery in these references depicts 'SAÚL' — a CARTOON MASCOT OWL CHARACTER, the official brand mascot of Paper Mate (similar to Mickey Mouse, Donald Duck). Saúl is a 3D CARTOON anthropomorphic owl with chibi proportions, smooth golden yellow body, dark-frame glasses, paw-like wing-hands (NOT human hands, NOT bird talons, NOT eagle claws). This is COMMERCIAL BRAND MASCOT IMAGERY for adult marketing context (school supplies for parents purchasing back-to-school).\n\n=== PAPERMATE V7 · SCENE GPT IMG 2 · RAMA A · headline: \"DIVIÉRTETE.\"\n\n**STRICT ROLES:**\n• IMAGE 1 = SCENE BASE (NBP cartoon scene · PRESERVE composition, character, anatomy almost entirely)\n• IMAGE 2 = BOX FRONT (for box text refinement only)\n• IMAGE 3-5 = PENCILS / MOODBOARD / TYPO ALPHABET (reference only)\n• IMAGE 6 = SAÚL CANONICAL (reference only · DO NOT use to modify Saúl unless visibly broken)\n• IMAGE 7 = PRE-RENDERED TYPOGRAPHY ASSET (extract typography to composite)\n\n=== TASK 1 — PRESERVE + BOX TEXT REFINE ONLY ===\n**CRITICAL: DO NOT modify Saúl's anatomy, body, proportions, hands, or features from IMAGE 1.** The scene base is approved as-is. Your job is ONLY to:\na) Refine box's printed text if blurred/warped so 'Paper Mate', '56 COLORES', 'MINA GRUESA 4.0mm', badges, callouts, mini-Saúl are PIXEL-PERFECT (preserve only the BOX, not Saúl)\nb) Add typography per TASK 2\n\nABSOLUTELY DO NOT:\n• Change Saúl's wing-hands into bird talons or claws\n• Make Saúl bigger or stretched\n• Change Saúl's proportions from chibi 3-heads-tall\n• Modify Saúl's pose, expression, or stance\n• \"Fix\" anatomy that isn't broken\n\nIf Saúl in IMAGE 1 has paw-like wing-hands, KEEP them paw-like. If proportions are chibi, KEEP them chibi. Only intervene if Saúl is visibly broken (missing limb, etc.).\n\n=== TASK 2 — TYPOGRAPHY COMPOSITE (banda · CRITICAL) ===\nThe LAST reference image is a PRE-RENDERED TYPOGRAPHY ASSET. Typography ALREADY composed correctly with Saúl Marker Display letterforms.\na) Add SOLID PAPERMATE-BLUE BAND (#2AB0EB) covering bottom 22-25% of frame, edge-to-edge.\nb) Add YELLOW (#F4C220) zigzag border at TOP edge of band — hand-drawn marker, slightly imperfect.\nc) EXTRACT typography from last reference and PLACE on the band, centered.\nd) PRESERVE EXACT LETTERFORMS — trace stroke by stroke from the asset.\ne) BELOW the band include Paper Mate wordmark (white script + red heart).\n\n\nRENDER: 9:16 vertical 4K. Pixar 3D scene PRESERVED + only box text refine + typography composite.",
+      "images": [
+        "964",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "log": true
+    },
+    "class_type": "KIE_GPTImage2_I2I",
+    "_meta": {
+      "title": "421 · E3 RAMA A V7 +wm"
+    }
+  },
+  "722": {
+    "inputs": {
+      "images": [
+        "421",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview E3 imagen final"
+    }
+  },
+  "822": {
+    "inputs": {
+      "images": [
+        "421",
+        0
+      ],
+      "filename_prefix": "papermate_test/MASTER_v1_e3_2_imagen_final_4K"
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save E3 imagen final"
+    }
+  },
+  "350": {
+    "inputs": {
+      "image1": [
+        "284",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "401: + canonical Saúl (anatomy lock)"
+    }
+  },
+  "351": {
+    "inputs": {
+      "image1": [
+        "288",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "411: + canonical Saúl (anatomy lock)"
+    }
+  },
+  "352": {
+    "inputs": {
+      "image1": [
+        "331",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "421: + canonical Saúl (anatomy lock)"
+    }
+  },
+  "940": {
+    "inputs": {
+      "image1": [
+        "151",
+        0
+      ],
+      "image2": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "TYPO refs (alphabet + moodboard historias)"
+    }
+  },
+  "950": {
+    "inputs": {
+      "prompt": "TYPOGRAPHY ASSET FOR COMPOSITING — Generate ONLY typography on pure black. NO characters. NO products. NO scenes.\n\nREFERENCES:\n• IMAGE 1 = Saúl Marker Display alphabet specimen — match stroke weight, wobble, imperfections.\n• IMAGE 2 = Moodboard with Papermate marker headlines.\n\n1. HEADLINE: 'LLEGÓ EL DÍA' / 'MÁS ESPERADO.'\n   • All caps, bouncy baseline, hand-drawn marker style, slight wobble\n   • Match alphabet ref EXACTLY (NOT Permanent Marker, NOT Sharpie generic)\n   • Centered horizontally + vertically in middle 50% of frame\n2. YELLOW (#F4C220) curved hand-drawn underline UNDER 'MÁS ESPERADO' — wavy marker stroke\n3. SPARKLES: 4-6 small 4-pointed WHITE sparkles ✦ scattered (2L, 2R, 1-2 above)\n\nLAYOUT: 9:16 vertical. Pure black background. Typography centered.\n\nNEGATIVE: characters, owl, Saúl, products, boxes, scenes, gradient, non-black background, generic sans-serif, blurry text, watermarks.\n\nRENDER: clean crisp text on PURE BLACK for compositing. 9:16 vertical 1K. PNG.",
+      "images": [
+        "940",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "950 · E1 TYPO V7 'LLEGÓ EL DÍA MÁS ESPERADO.'"
+    }
+  },
+  "951": {
+    "inputs": {
+      "prompt": "TYPOGRAPHY ASSET FOR COMPOSITING — Generate ONLY typography on pure black. NO characters. NO products. NO scenes.\n\nREFERENCES:\n• IMAGE 1 = Saúl Marker Display alphabet specimen — match stroke weight, wobble, imperfections.\n• IMAGE 2 = Moodboard with Papermate marker headlines.\n\n1. HEADLINE: 'DIBUJA' / 'SIN PARAR.'\n   • All caps, bouncy baseline, hand-drawn marker style, slight wobble\n   • Match alphabet ref EXACTLY (NOT Permanent Marker, NOT Sharpie generic)\n   • Centered horizontally + vertically in middle 50% of frame\n2. YELLOW (#F4C220) curved hand-drawn underline UNDER 'SIN PARAR' — wavy marker stroke\n3. SPARKLES: 4-6 small 4-pointed WHITE sparkles ✦ scattered (2L, 2R, 1-2 above)\n\nLAYOUT: 9:16 vertical. Pure black background. Typography centered.\n\nNEGATIVE: characters, owl, Saúl, products, boxes, scenes, gradient, non-black background, generic sans-serif, blurry text, watermarks.\n\nRENDER: clean crisp text on PURE BLACK for compositing. 9:16 vertical 1K. PNG.",
+      "images": [
+        "940",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "951 · E2 TYPO V7 'DIBUJA SIN PARAR.'"
+    }
+  },
+  "952": {
+    "inputs": {
+      "prompt": "TYPOGRAPHY ASSET FOR COMPOSITING — Generate ONLY typography on pure black. NO characters. NO products. NO scenes.\n\nREFERENCES:\n• IMAGE 1 = Saúl Marker Display alphabet specimen — match stroke weight, wobble, imperfections.\n• IMAGE 2 = Moodboard with Papermate marker headlines.\n\n1. HEADLINE: 'DIVIÉRTETE.'\n   • All caps, bouncy baseline, hand-drawn marker style, slight wobble\n   • Match alphabet ref EXACTLY (NOT Permanent Marker, NOT Sharpie generic)\n   • Centered horizontally + vertically in middle 50% of frame\n2. YELLOW (#F4C220) curved hand-drawn underline UNDER 'DIVIÉRTETE' — wavy marker stroke\n3. SPARKLES: 4-6 small 4-pointed WHITE sparkles ✦ scattered (2L, 2R, 1-2 above)\n4. WORDMARK: render 'Paper Mate' wordmark in white hand-script with RED HEART (#E63027) between 'Paper' and 'Mate'.\n\nLAYOUT: 9:16 vertical. Pure black background. Typography centered.\n\nNEGATIVE: characters, owl, Saúl, products, boxes, scenes, gradient, non-black background, generic sans-serif, blurry text, watermarks.\n\nRENDER: clean crisp text on PURE BLACK for compositing. 9:16 vertical 1K. PNG.",
+      "images": [
+        "940",
+        0
+      ],
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "output_format": "png",
+      "log": true
+    },
+    "class_type": "KIE_NanoBananaPro_Image",
+    "_meta": {
+      "title": "952 · E3 TYPO V7 'DIVIÉRTETE.' + wm"
+    }
+  },
+  "960": {
+    "inputs": {
+      "image1": [
+        "350",
+        0
+      ],
+      "image2": [
+        "950",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1-A: + TYPO ASSET (final ref)"
+    }
+  },
+  "962": {
+    "inputs": {
+      "image1": [
+        "351",
+        0
+      ],
+      "image2": [
+        "951",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2-A: + TYPO ASSET (final ref)"
+    }
+  },
+  "964": {
+    "inputs": {
+      "image1": [
+        "352",
+        0
+      ],
+      "image2": [
+        "952",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3-A: + TYPO ASSET (final ref)"
+    }
+  },
+  "204": {
+    "inputs": {
+      "image1": [
+        "203",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1: + canonical REINFORCE (identity lock)"
+    }
+  },
+  "205": {
+    "inputs": {
+      "image1": [
+        "204",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E1: + box_front REINFORCE (product lock)"
+    }
+  },
+  "214": {
+    "inputs": {
+      "image1": [
+        "213",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2: + canonical REINFORCE (identity lock)"
+    }
+  },
+  "215": {
+    "inputs": {
+      "image1": [
+        "214",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E2: + box_front REINFORCE (product lock)"
+    }
+  },
+  "224": {
+    "inputs": {
+      "image1": [
+        "223",
+        0
+      ],
+      "image2": [
+        "111",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3: + canonical REINFORCE (identity lock)"
+    }
+  },
+  "225": {
+    "inputs": {
+      "image1": [
+        "224",
+        0
+      ],
+      "image2": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "ImageBatch",
+    "_meta": {
+      "title": "E3: + box_front REINFORCE (product lock)"
+    }
+  }
+}
