@@ -1,0 +1,24 @@
+{
+  "snapshotDate": "2026-05-25",
+  "source": "~/Documents/custom_nodes (ARDE Mac Studio M1 Max)",
+  "nodes": [
+    {"name": "Comfy-WaveSpeed", "upstream": "https://github.com/chengzeyi/Comfy-WaveSpeed.git", "commit": "8253745127785d820cff0a9621d1537a5aae5424", "branch": "main"},
+    {"name": "ComfyUI-Advanced-ControlNet", "upstream": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git", "commit": "b03791e4560482d44236788af2f4fb9b58c31452", "branch": "main"},
+    {"name": "ComfyUI-AdvancedLivePortrait", "upstream": "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait.git", "commit": "3bba732915e22f18af0d221b9c5c282990181f1b", "branch": "main"},
+    {"name": "ComfyUI-BrushNet", "upstream": "https://github.com/nullquant/ComfyUI-BrushNet.git", "commit": "505d8ef917ddf3896afd1926770ecc9b099704e2", "branch": "main"},
+    {"name": "ComfyUI-ClarityAI", "upstream": "https://github.com/philz1337x/ComfyUI-ClarityAI.git", "commit": "205b6177963e11c379192f406b39b566d3ebbf0e", "branch": "main"},
+    {"name": "ComfyUI-Detail-Daemon", "upstream": "https://github.com/Jonseed/ComfyUI-Detail-Daemon.git", "commit": "39206d10849584e0b6ded943faca4dcd8747beb7", "branch": "main"},
+    {"name": "ComfyUI-Impact-Pack", "upstream": "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git", "commit": "6a517ebe06fea2b74fc41b3bd089c0d7173eeced", "branch": "Main"},
+    {"name": "ComfyUI-Kie-API", "upstream": "https://github.com/gateway/ComfyUI-Kie-API.git", "commit": "0a6680d77d90a632d022001c7b518d94646c57f1", "branch": "main"},
+    {"name": "ComfyUI-MMAudio", "upstream": "https://github.com/kijai/ComfyUI-MMAudio.git", "commit": "8eaeb72edc3aaf2059b57f2d96a1f6f689f19ae2", "branch": "main"},
+    {"name": "ComfyUI-VideoHelperSuite", "upstream": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git", "commit": "2984ec4c4b93292421888f38db74a5e8802a8ff8", "branch": "main"},
+    {"name": "ComfyUI_FizzNodes", "upstream": "https://github.com/FizzleDorf/ComfyUI_FizzNodes.git", "commit": "7d6ea60c55ebd1268bd76fa462da052852bff192", "branch": "main"},
+    {"name": "ComfyUI_LayerStyle", "upstream": "https://github.com/chflame163/ComfyUI_LayerStyle.git", "commit": "d94bef1ee5ed3656f5ff1bb2830a4ffd94f40935", "branch": "main"},
+    {"name": "ComfyUI_Yvann-Nodes", "upstream": "https://github.com/yvann-ba/ComfyUI_Yvann-Nodes.git", "commit": "b96238a9291c224becdd9f871444131f53689e7a", "branch": "main"},
+    {"name": "ComfyUI_essentials", "upstream": "https://github.com/cubiq/ComfyUI_essentials.git", "commit": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9", "branch": "main"},
+    {"name": "comfyui_controlnet_aux", "upstream": "https://github.com/Fannovel16/comfyui_controlnet_aux.git", "commit": "95a13e2e5d8f8ae57583fbebb0be1f670889858b", "branch": "main"},
+    {"name": "sdxl_prompt_styler", "upstream": "https://github.com/twri/sdxl_prompt_styler.git", "commit": "51068179927f79dce14f38c6b1984390ab242be2", "branch": "main"},
+    {"name": "steerable-motion", "upstream": "https://github.com/banodoco/steerable-motion.git", "commit": "ac1ea3a682bf45079a05d3ac587d8e5bfe5a3815", "branch": "main"},
+    {"name": "was-node-suite-comfyui", "upstream": "https://github.com/WASasquatch/was-node-suite-comfyui.git", "commit": "ea935d1044ae5a26efa54ebeb18fe9020af49a45", "branch": "main"}
+  ]
+}

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models pesados (NUNCA commitear, se descargan en runtime)
+*.safetensors
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.pt
+models/
+checkpoints/
+weights/
+
+# Git de terceros (queremos los nodes como carpetas planas, no como submodules)
+.git/
+
+# Logs y caches
+*.log
+.cache/
+.pytest_cache/
